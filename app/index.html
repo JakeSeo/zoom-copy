@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" type="text/css" />
+    <title>(copy) Video Conferencing, Web Conferencing, Webinars, Screen Sharing - Zoom</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon-zoom.ico" />
+    <meta name="keywords" content="video conferencing, web conferencing, webinars, screen sharing" />
+  </head>
   <body>
     <header class="header">
       <nav>
@@ -27,7 +33,7 @@
         </ul>
       </nav>
       <div>
-        <a href="#">Sign up, It's Free</a>
+        <a class="btn btn--small" href="#">Sign up, It's Free</a>
       </div>
     </header>
     <div class="challenge">
@@ -35,18 +41,18 @@
     </div>
     <div class="slider">
       <picture>
-        <img src="assets/images/first-slider-background.jpg" />
+        <img class="slider__image" src="assets/images/first-slider-background.jpg" />
       </picture>
-      <div>
-        <h2>In this together. Keeping you securely connected wherever you are.</h2>
-        <div>
-          <a href="#">Sign up for Free</a>
-          <a href="#">Helpful Resources</a>
+      <div class="slider__text-content">
+        <h2 class="slider__title">In this together.<br />Keeping you securely<br />connected wherever you are.</h2>
+        <div class="btn-container">
+          <a class="btn btn--large" href="#">Sign up for Free</a>
+          <a class="btn btn--white btn--large" href="#">Helpful Resources</a>
         </div>
       </div>
-      <div>
+      <div class="slider__footer">
         <p>Learning made easy. Our Zoom experts offer sessions daily on all things Zoom.</p>
-        <a href="#">Register Now</a>
+        <a class="btn btn--transparent" href="#">Register Now</a>
       </div>
     </div>
 
@@ -194,13 +200,10 @@
         <img src="assets/images/logo-splunk.png" />
       </div>
     </div>
-
-    <div class="buy">
-      <div>
-        <a href="#Request-a-Demo">Request a Demo</a>
-      </div>
-      <div>
-        <a href="#Buy-Now">Buy Now</a>
+    <div class="buy-now">
+      <div class="btn-container">
+        <a class="btn btn--white" href="#Request-a-Demo">Request a Demo</a>
+        <a class="btn" href="#Buy-Now">Buy Now</a>
       </div>
     </div>
 
@@ -287,5 +290,6 @@
 
       <p>Copyright &copy;2020 Zoom Video Communications, Inc. All rights reserved. Privacy & Legal Policies | About Ads | Do Not Sell My Personal Information | Cookie Preferences</p>
     </footer>
+    <script src="bundled.js"></script>
   </body>
 </html>
