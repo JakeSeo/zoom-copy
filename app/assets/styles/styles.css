@@ -1,6 +1,8 @@
 @import "normalize.css";
 @import "base/_global";
+@import "base/_variables";
 @import "modules/_header";
 @import "modules/_slider";
 @import "modules/_btn";
 @import "modules/_btn-container";
+@import "modules/_wrapper";

@@ -2,25 +2,43 @@
   background-color: $orange;
   color: #fff;
   text-decoration: none;
-  padding: 0.75rem 1rem;
+  padding: 11px 12px;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 1rem;
+  text-align: center;
+
+  &:hover {
+    filter: brightness(90%);
+  }
 
   &--white {
     background-color: #fff;
     color: #000;
     border: solid 0.5px #b3b3b3;
+
+    &:hover {
+      background-color: rgba(#f26d21, 0.3);
+      border-color: white;
+    }
   }
 
   &--transparent {
     border: solid 0.5px #fff;
     background-color: rgb(255, 255, 255, 0);
+
+    &:hover {
+      filter: brightness(100%);
+    }
+  }
+
+  &--fixed-width {
+    width: 200px;
   }
 
   &--large {
-    padding: 1rem 1.25rem;
-    font-size: 1.2rem;
+    padding: 15px 20px;
+    font-size: 1.125rem;
   }
 
   &--small {
